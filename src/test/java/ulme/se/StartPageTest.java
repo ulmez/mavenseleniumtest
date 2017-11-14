@@ -36,6 +36,8 @@ public class StartPageTest {
 	
 	@Test
 	public void test1() {
+		startPage.textInSearchField("Hello World");
+		startPage.takeScreenshot();
 		//startPage.textInSearchField("Hello World");
 		//startPage.searchButtonPressEnterKey();
 		//startPage.clickSearchButton();
@@ -46,7 +48,7 @@ public class StartPageTest {
 		//System.out.println(startPage.getSearchButtonGoogleText().contains("Sök på Google"));
 	}
 	
-	@Test
+	/*@Test
 	public void test2() {
 		//startPage.textInSearchField("Hello World");
 		//startPage.searchButtonPressEnterKey();
@@ -56,6 +58,6 @@ public class StartPageTest {
 		Assert.assertTrue(startPage.getSearchButtonGoogleText().contains("Sök på Google"));
 		//Assert.assertTrue(true);
 		//System.out.println(startPage.getSearchButtonGoogleText().contains("Sök på Google"));
-	}
+	}*/
 
 }
